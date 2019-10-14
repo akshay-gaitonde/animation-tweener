@@ -1,0 +1,12 @@
+#calling tweener function in maya
+
+
+
+import maya.cmds as cmds
+import sys
+sys.path.append("D:\\akshay\\script")
+import reuseableUI as rui
+reload(rui)
+
+window=rui.TweenerUI()
+window.show()
